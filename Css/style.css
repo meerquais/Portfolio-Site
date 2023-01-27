@@ -444,6 +444,12 @@ form textarea {
     padding: 20px;
     color: #000;
 }
+.footer-social{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+}
                                    
 .footer h2 {
     font-size: 1.5rem;
@@ -451,7 +457,7 @@ form textarea {
     color: var(--text-color)
 }
 .footer-social a img{
-    width: 6%;
+    width: 100%;
 }
                                    
 .footer-social a {
@@ -465,8 +471,29 @@ form textarea {
     width: 40px;
     height: 40px;
 }
+.facebook{
+    width: 8%;
+}
+.insta{
+    width: 10%;
+}
+.linked{
+    width: 10%;
+}
+.github{
+    width: 7%;
+}
 .facebook1{
-    margin-left: 450px !important;
+    width: 80px !important;
+}
+.insta1{
+    width: 100px !important;
+}
+.linkedin{
+    width: 75px !important;
+}
+.github1{
+    width: 100px !important;
 }
                                    
 .copyright {
@@ -561,6 +588,29 @@ header .navbar {
                                    
 .contact-button {
     margin-left: 25%;}
+
+.work-web{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px ;
+}
+.web-work{
+    display: flex;
+    flex-direction: row;
+    margin-right: 50px ;
+}
+.facebook{
+    margin: 0px 10px;
+}
+.insta{
+    margin: 0px 20px;
+}
+.linked{
+    margin: 0px 20px;
+}
+.github{
+    margin: 0px 20px;
+}
 }
                                    
 @media (max-width: 340px) {
@@ -568,6 +618,8 @@ header .navbar {
     --big-font: 1.7rem;
     --medium-font: 1.1rem;}
     }   
+
+
 .home-text span {
     font-size: 1rem;}
                                    
